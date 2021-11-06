@@ -1,50 +1,88 @@
 k<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-	</head>
-	<body>
-		<header>
-			<nav>
-				<ul>
-					<li><a href="#">Dario</a></li>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Contact</a></li>
-					<li><a href="#">Jesus Gonzalez</a></li>
-				</ul>
-			</nav>
-		</header>
-		<main>main Jhoy si jode</main>
-		<footer>footer</footer>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Dario</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Jesus Gonzalez</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="main">
+        <div class="card">
+          <img
+            src="https://images.pexels.com/photos/2317519/pexels-photo-2317519.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+            alt="Moto Honda"
+          />
+        </div>
+        <div class="card">
+          <img
+            src="https://images.pexels.com/photos/3269629/pexels-photo-3269629.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+            alt="Moto Yamaha"
+          />
+        </div>
+        <div class="card">
+          <img
+            src="https://images.pexels.com/photos/5275284/pexels-photo-5275284.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+            alt="Moto KTM"
+          />
+        </div>
+        <div class="card">
+          <img
+            src="https://images.pexels.com/photos/2611686/pexels-photo-2611686.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+            alt="Moto Harley-Davidson"
+          />
+        </div>
+      </section>
+    </main>
+    <footer>footer</footer>
+  </body>
 
-	<style>
-    *{
+  <style>
+    * {
       border: 1px solid black;
     }
-		header nav ul {
-			display: flex;
-			justify-content: space-around;
-		}
-		header nav ul li {
-			list-style: none;
-		}
-		header nav ul li a {
-			text-decoration: none;
-			color: #000;
-		}
-		header nav ul li a:hover {
-			color: #f00;
-		}
+
+    .card {
+      width: 30vh;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-content: space-between;
+    }
+    .card img {
+      height: 300px;
+    }
+    header nav ul {
+      display: flex;
+      justify-content: space-around;
+    }
+    header nav ul li {
+      list-style: none;
+    }
+    header nav ul li a {
+      text-decoration: none;
+      color: #000;
+    }
+    header nav ul li a:hover {
+      color: #f00;
+    }
     main {
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
     }
-	</style>
+  </style>
 </html>
