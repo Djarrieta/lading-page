@@ -8,10 +8,40 @@
 	</head>
 	<body>
 		<header>
-      <nav>nav</nav>
-    </header>
-		<main>
-      main
-    </main>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>main</main>
 	</body>
+
+	<style>
+    *{
+      border: 1px solid black;
+    }
+		header nav ul {
+			display: flex;
+			justify-content: space-around;
+		}
+		header nav ul li {
+			list-style: none;
+		}
+		header nav ul li a {
+			text-decoration: none;
+			color: #000;
+		}
+		header nav ul li a:hover {
+			color: #f00;
+		}
+    main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+	</style>
 </html>
